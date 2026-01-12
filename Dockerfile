@@ -23,4 +23,4 @@ USER node
 RUN yarn
 RUN yarn build
 
-CMD [ "yarn", "start:dev" ]
+CMD [ "yarn", "start:prod" ]
